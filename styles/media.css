@@ -1,0 +1,160 @@
+@media screen and (max-width: 670px){
+  #headerBlack nav ul{
+    display: block;
+  }
+  .footerMenu{
+    justify-content: space-between;
+  }
+  .footerImg{
+    width: 140px;
+  }
+  .footerMenu ul{
+    width: auto;
+    justify-content: flex-end;
+    display: block;
+  }
+
+  
+ 
+}
+
+@media screen and (max-width: 830px){
+  header ul li a:hover{
+    border-bottom: none;
+  }
+  .listPackages{
+    max-width: 420px;
+    min-width: 250px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    flex: 1;
+    left: calc((100% - 420px)/2);
+  }
+  
+  .packages{
+    height: 1350px;
+  }
+  
+  .package{
+    margin-bottom: 10px;
+  }
+
+
+  .aboutUs{
+    flex-direction: column;
+    align-items: center;
+    height: 675px;
+    margin: 0 auto;
+  }
+  #aboutUsHeader{
+    text-align: center;
+  }
+  .aboutUsInfo{
+    width: 90%;
+    text-indent: 20px;
+    margin: 0 auto;
+    border-right: none;
+    padding: 0;
+  }
+  .ourTeam{
+    width: 90%;
+    margin: 100px auto;
+  }
+  
+
+  .comments .textComment{
+    width: 90%;
+    left: 5%;
+    top: 10px;
+  }
+
+  .comments .nameComment{
+    top: 150px;
+  }
+
+  .functions{
+    flex-wrap: wrap;
+    height: 700px;
+  }
+  .function{
+    max-width: 40%;
+  }
+
+  footer{
+    height: 500px;
+  }
+  .footerBottom{
+    flex-direction: column;
+  }
+  .footerArea{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footerArea1 p{
+    margin: 0 auto;
+  }
+
+  .footerArea2{
+    border: none;
+  }
+
+
+  .infoArea3{
+    margin: 0 auto;
+  }
+
+  
+}
+
+@media screen and (max-width: 420px){
+  #headerLogo{
+    display: none;
+    
+  }
+  header nav ul{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .listPackages{
+    width: 200px;
+    max-width: 250px;
+    min-width: 175px;
+    flex-wrap: wrap;
+    flex: 1;
+    left: calc((100% - 200px)/2);
+    padding: 10px;
+  }
+
+  .packages{
+    height: 2500px;
+  }
+  .package{
+    margin-bottom: 10px;
+  }
+  .aboutUsInfo{
+    text-indent: 20px;
+    margin: 0 auto;
+  }
+
+  .aboutUsInfo p{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .comments .textComment{
+    width: 90%;
+    left: 5%;
+    top: 5px;
+  }
+
+  .comments .nameComment{
+    top: 155px;
+  }
+
+
+}

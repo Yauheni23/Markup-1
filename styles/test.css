@@ -1,0 +1,9 @@
+#circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+  border:5px solid red;
+  /*-webkit-clip-path: polygon(49% 1%, 51% 49%, 100% 50%, 100% 100%, 0% 100%, 0% 0%);*/
+  clip-path: polygon(50% 0%, 50% 50%, 100% 50%,100% 0% );
+}

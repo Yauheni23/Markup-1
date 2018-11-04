@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato-Regular';
+  box-sizing: border-box;
+}
+header{
+  background: url('../images/header/Header\ BG.png');
+}
+
+#headerBlack{
+  background: rgba(0, 0, 0, 0.699);
+  height: 100vh;
+}
+
+
+nav{
+  display: flex;
+  min-width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  height: 10vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+#headerLogo{
+  width: 50%;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+header ul li{
+  display: inline-block;
+  color: white;
+}
+
+header ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Lato";
+  padding-bottom: 3.65vh;
+}
+
+header ul li a:hover{
+  border-bottom: 3px solid white;
+}
+
+header #hello{
+  text-align: center;
+  font-size: 72px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  align-items: center;
+  margin-top: 37.5vh;
+}
+#headerText {
+  font-size: 32px;
+  line-height: 47px;
+  color: #ffffff;
+  font-family: "Georgia";
+  font-style: italic;
+  text-align: center;
+  font-weight: normal;
+}
+
+/*форма*/
+.access{
+  width: 100%;
+  display: flex;
+}
+
+.loginTop{
+  background: #21424B;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 80px;
+  align-items: center;
+  position: relative;
+}
+
+
+.loginTop:after{
+  width: 20px;
+  height: 80px;
+  background: linear-gradient(to bottom right,#21424B 48%, #21424B 48%, #2FAB6C 52%,#2FAB6C 100%);
+  position: absolute;
+  content: '';
+  left: calc(100% - 10px);
+  top: 0;
+  box-sizing: border-box;
+}
+
+.registerTop{
+  background: #2FAB6C; 
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 80px;
+  align-items: center;   
+}
+.change_link a{
+  text-decoration: none;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: bold;
+  transition: all 0.5s linear;
+}
+.login:hover{
+  color: #2FAB6C;
+  font-size: 1.8em;
+}
+.register:hover{
+  color: #21424B;
+  font-size: 1.8em;
+}
+
+
+

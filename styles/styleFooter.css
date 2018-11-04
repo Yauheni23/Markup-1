@@ -1,0 +1,154 @@
+footer{
+  background: #2a2a2a;
+  height: 300px;
+}
+
+.footerImg{
+  width: 50%;
+}
+.footerImg img{
+  opacity: 0.5;
+}
+
+.footerMenu{
+  display: flex;
+  min-width: 75%;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  height: 75px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+.footerMenu ul{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.footerMenu ul li{
+  display: inline-block;
+  margin-left: 20px;
+  
+}
+
+
+.footerMenu ul li a{
+  opacity: 0.5;
+  font-family: 'Lato-Medium', 'AdobeInvisFont', 'MyriadPro-Regular';
+  font-size: 9pt;
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s linear;
+}
+
+.footerMenu ul li a:hover{
+  opacity: 1;
+}
+
+.footerBottom{
+  min-width: 75%;
+  max-width: 1200px;
+  display: flex;
+  flex: 1; 
+  margin: 35px auto 0;
+}
+
+.footerBottom .footerArea1{
+  flex:4;
+}
+.footerBottom .footerArea2{
+  flex:5;
+}
+.footerBottom .footerArea3{
+  flex:4;
+}
+
+
+.footerArea1 p{
+  font-family: 'Lato-Light', 'Lato-Semibold', 'Lato-Bold', 'AdobeInvisFont';
+  font-size: 10.5pt;
+  margin: 15px 50px 15px 0;
+  color: rgba(104, 104, 104, 255);
+}
+
+.footerArea2{
+  border-left: 1px solid rgba(255, 255, 255, 0.274);
+  border-right: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+.footerList{
+  margin-top: 25px;
+  max-width: 300px;
+  padding: 0 5px 0 5px;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footerList ul{
+  text-align: left;
+  color: #ffffff;
+  list-style: none;
+  display: inline-block;
+}
+
+.footerList ul:nth-child(1){
+  width: 50%;
+}
+.footerList ul:nth-child(2){
+  width: 40%;
+}
+
+
+
+.footerList ul li a{
+  font-family: 'Lato-Light', 'Lato-Medium', 'AdobeInvisFont', 'MyriadPro-Regular';
+  font-size: 10.5pt;
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s linear;
+}
+.footerList ul li{
+  margin-top: 5px;
+  opacity: 0.5;
+  
+}
+.footerArea2 ul li:hover{
+  opacity: 1;
+}
+.footerArea2 ul li:hover > i{
+  margin-right: 5px;
+}
+
+
+.footerArea3{
+  font-family: 'Lato-Light', 'Lato-Semibold', 'Lato-Bold', 'AdobeInvisFont';
+  font-size: 9pt;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+}
+.infoArea3{
+  max-width: 240px;
+  margin-left: auto;
+}
+
+.infoArea3 p{
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footerArea3 i{
+  transform: rotateY(180deg);
+}
+.footerArea3 a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footerArea3 a:hover{
+  color: white;
+}
