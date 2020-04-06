@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Lato-Black'; /* Гарнитура шрифта */
+  src: url("../../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-family: 'Lato-Semibold'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Semibold.ttf");
+}
+@font-face {
+  font-family: 'Montserrat-UltraLight'; /* Гарнитура шрифта */
+  src: url("../fonts/Montserrat-UltraLight.otf");
+}
+@font-face {
+  font-family: 'Lato-Thin'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Thin.ttf");
+}
+@font-face{
+  font-family: 'Lato-Light'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+  font-family: 'Lato-Heavy'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Heavy.ttf");
+}
+@font-face{
+  font-family: 'Lato-Medium'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face{
+  font-family: 'Lato-Bold'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+  font-family: 'Lato-Regular'; /* Гарнитура шрифта */
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
